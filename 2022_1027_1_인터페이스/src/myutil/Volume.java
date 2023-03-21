@@ -1,0 +1,15 @@
+package myutil;
+
+public interface Volume {
+
+	// »ó¼ö
+	int MIN = 0;
+	int MAX = 30;
+
+	void volumeUp();
+
+	void volumeDown();
+
+	void volumeZero();
+
+}
